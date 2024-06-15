@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Vertical Navigation Bar */
+        .vertical-navbar {
+            width: 200px;
+            border: 1px solid black;
+            margin-bottom: 20px;
+        }
+
+        .vertical-navbar a {
+            display: block;
+            color: blue;
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        .vertical-navbar a:hover {
+            color: white;
+            background-color: orange;
+        }
+
+        .horizontal-navbar {
+            display: flex;
+            border: 1px solid black;
+            width: fit-content;
+        }
+
+        .horizontal-navbar a {
+            flex: 1;
+            color: blue;
+            padding: 10px;
+            text-decoration: none;
+            text-align: center;
+            border-right: 1px solid black;
+        }
+
+        .horizontal-navbar a:hover {
+            background-color: gray;
+            color: white;
+        }
+
+    </style>
+    <title>Nav Bars</title>
+</head>
+<body>
+    <h3>Vertical Nav Bar</h3>
+    <div class="vertical-navbar">
+        <a href="#">Home</a>
+        <a href="#">Java</a>
+        <a href="#">CSS</a>
+        <a href="#">HTML</a>
+        <a href="#">Bootstrap</a>
+    </div>
+
+    <h3>Horizontal Nav Bar</h3>
+    <div class="horizontal-navbar">
+        <a href="#">Home</a>
+        <a href="#">Java</a>
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+    </div>
+</body>
+</html>
